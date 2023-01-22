@@ -18,6 +18,17 @@ h1 {
   font-size: 3rem;
 }
 
+/* Img container */
+
+.img-container {
+  margin: 1rem 25%;
+}
+
+.img-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
 /* Loader */
 
 .loader {
@@ -34,4 +45,16 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Media query */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .img-container {
+    margin: 1rem;
+  }
 }
